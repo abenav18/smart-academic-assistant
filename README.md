@@ -57,4 +57,4 @@ smart-academic-assistant/
 ```
 
 ## 📬 Contact
-For any questions or concerns, please contact us at [abhisharma3516@gmail.com](mailto:abhisharma3516@gmail.com).
+For any questions or concerns, please mail at [abhisharma3516@gmail.com](mailto:abhisharma3516@gmail.com).
