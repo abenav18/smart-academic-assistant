@@ -56,17 +56,5 @@ smart-academic-assistant/
 │   ├── utils.py
 ```
 
-## 📸 Screenshots
-
-## 🤝 Contributing
-Contributions are welcome! If you'd like to contribute to the Smart Academic Assistant, please fork the repository and submit a pull request.
-
-## 📝 License
-The Smart Academic Assistant is licensed under the MIT License.
-
 ## 📬 Contact
-For any questions or concerns, please contact us at [your-email@example.com](mailto:your-email@example.com).
-
-## 💖 Thanks Message
-A huge thank you to everyone who has contributed to the Smart Academic Assistant! Your support and contributions are greatly appreciated.
-This is written by [readme.ai](https://readme-generator-phi.vercel.app/)
+For any questions or concerns, please contact us at [abhisharma3516@gmail.com](mailto:abhisharma3516@gmail.com).
