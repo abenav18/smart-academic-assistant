@@ -88,7 +88,7 @@ if st.button("Get Answer"):
         retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 4})
         retrieved_doc = retriever.invoke(question) # pehle get_relevant_documents tha 
 
-        # 5. Use Groq-hosted LLM via LangChain (e.g., Mixtral, Gemma, Llama3)
+        # 5. Use Groq-hosted LLM via LangChain
         llm = ChatGroq(model="meta-llama/llama-4-maverick-17b-128e-instruct")
 
         class StructuredAnswer(BaseModel):
@@ -151,8 +151,6 @@ if st.button("Get Answer"):
         st.write("The mode is",confidence_score*100,"%"," sure that this is the right answer.")
         st.subheader("📄 Source Document:")
         st.write(source_document)
-
-        #st.info("Implement your RAG logic above and display the final structured response here.")
 
 # -------------------- Bonus Section: Agent Tools --------------------
 st.markdown("---")
