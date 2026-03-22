@@ -1,6 +1,3 @@
-# TOPIC_WISE EXPLANATION IS NOT WORKING
-
-
 import streamlit as st
 from langchain.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
