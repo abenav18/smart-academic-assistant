@@ -78,7 +78,7 @@ if st.button("Get Answer"):
         )
         chunks = splitter.split_documents(documents)
 
-        # 3. Create embeddings and store in vector store (e.g., FAISS, Chroma)
+        # 3. Create embeddings and store in vector store
         embeddings = HuggingFaceEmbeddings(
             model_name="sentence-transformers/all-MiniLM-L6-v2"
         )
